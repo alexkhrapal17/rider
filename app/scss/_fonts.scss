@@ -1,0 +1,7 @@
+@import "_mixins/font-face";
+
+@include font-face("PFDinDisplayProThin", "../fonts/PFDinDisplayProThin/PFDinDisplayProThin");
+@include font-face("PFDinDisplayProLight", "../fonts/PFDinDisplayProLight/PFDinDisplayProLight");
+@include font-face("PFDinDisplayProRegular", "../fonts/PFDinDisplayProRegular/PFDinDisplayProRegular");
+@include font-face("PFDinDisplayProMedium", "../fonts/PFDinDisplayProMedium/PFDinDisplayProMedium");
+@include font-face("PFDinDisplayProBold", "../fonts/PFDinDisplayProBold/PFDinDisplayProBold");
