@@ -19,7 +19,7 @@
             <entry file="file://$PROJECT_DIR$/app/index3.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="140">
-                  <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="51" />
+                  <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="51" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -31,7 +31,7 @@
             <entry file="file://$PROJECT_DIR$/app/index2.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1236">
-                  <caret line="259" column="18" lean-forward="true" selection-start-line="138" selection-start-column="12" selection-end-line="259" selection-end-column="18" />
+                  <caret line="259" column="18" selection-start-line="138" selection-start-column="12" selection-end-line="259" selection-end-column="18" />
                   <folding>
                     <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -86,7 +86,7 @@
             <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="340">
-                  <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="38" />
+                  <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -238,12 +238,12 @@
       <workItem from="1556289393542" duration="4495000" />
       <workItem from="1556633341325" duration="8204000" />
       <workItem from="1556723418489" duration="12315000" />
-      <workItem from="1556814314237" duration="7774000" />
+      <workItem from="1556814314237" duration="7897000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32851000" />
+    <option name="totallyTimeSpent" value="32974000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,7 +377,7 @@
     <entry file="file://$PROJECT_DIR$/app/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1236">
-          <caret line="259" column="18" lean-forward="true" selection-start-line="138" selection-start-column="12" selection-end-line="259" selection-end-column="18" />
+          <caret line="259" column="18" selection-start-line="138" selection-start-column="12" selection-end-line="259" selection-end-column="18" />
           <folding>
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -406,7 +406,7 @@
     <entry file="file://$PROJECT_DIR$/app/index3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="80" column="32" lean-forward="true" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="51" />
+          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="51" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -423,7 +423,7 @@
     <entry file="file://$PROJECT_DIR$/app/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="38" />
+          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="38" />
         </state>
       </provider>
     </entry>
