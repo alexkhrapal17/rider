@@ -58,7 +58,7 @@ $(function() {
     });
 
     // collapse
-    $('.distribution-select').on('click', function (e) {
+    $('.distribution-select select').on('change', function (e) {
        e.preventDefault();
        $('.results-wrapper').slideDown();
     });
