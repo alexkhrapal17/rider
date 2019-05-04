@@ -1,5 +1,5 @@
 .main-header {
-  padding: 40px 0;
+  padding: 39px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -8,12 +8,8 @@
   @include transition(.5s);
 
   @include media-breakpoint-down(sm) {
-    padding: 20px 0 10px 0 !important;
+    padding: 20px 0 26px 0;
     background-color: #fff;
-  }
-
-  &.header2 {
-    padding: 40px 0 0 0;
   }
 
   &.header3 {
@@ -27,7 +23,7 @@
     }
 
     &.scroll-class {
-      padding: 40px 0;
+      padding: 20px 0 26px 0 !important;
       box-shadow: none;
     }
   }
@@ -38,19 +34,25 @@
     box-shadow: 0 0 10px 1px #ccc;
 
     @include media-breakpoint-down(sm) {
-      padding: 20px 0 10px 0 !important;
+      padding: 5px 0 10px 0!important;
+    }
+
+    .main-nav {
+      top: calc(100% + 10px);
     }
   }
 }
 
 .lang-wrap {
   text-align: right;
-  margin-bottom: 10px;
-  margin-right: 3px;
+  margin-bottom: 5px;
+  margin-right: 29px;
 
   @include media-breakpoint-down(sm) {
     margin-bottom: -35px;
-    margin-right: 30px;
+    margin-right: 25px;
+    position: relative;
+    top: 16px;
   }
 
   .lang-link {
@@ -59,12 +61,14 @@
     margin: 0 7px;
     text-transform: uppercase;
     color: $c-main;
-    border-bottom: 1px solid $c-main;
-    @include transition(.2s);
+    text-decoration: underline;
+
+    @include media-breakpoint-down(sm) {
+      margin: 0 5px;
+    }
 
     &.active,
     &:hover {
-      border-color: transparent;
       color: $c-text;
       text-decoration: none;
     }
@@ -73,12 +77,24 @@
 
 .logo {
   display: block;
+  margin-left: 20px;
+  position: relative;
+  z-index: 100;
+
+  @include media-breakpoint-down(sm) {
+    margin-left: 3px;
+    margin-top: 20px;
+  }
 
   img {
     max-width: 224px;
 
     @include media-breakpoint-down(md) {
       max-width: 150px;
+    }
+
+    @include media-breakpoint-down(sm) {
+      max-width: 135px;
     }
   }
 }
@@ -88,7 +104,7 @@
     opacity: 0;
     visibility: hidden;
     position: absolute;
-    top: calc(100% + 10px);
+    top: calc(100% + 26px);
     left: 0;
     width: 100%;
     overflow: hidden;
@@ -107,7 +123,7 @@
     vertical-align: middle;
     font-size: 19px;
     color: #5c6474;
-    margin: 0 10px;
+    margin: 0 11px;
     position: relative;
     @include transition(.2s);
 
@@ -153,12 +169,12 @@
 
   @include media-breakpoint-down(sm) {
     display: block;
-    width: 23px;
+    width: 27px;
     height: 44px;
     position: relative;
     cursor: pointer;
-    margin-top: 2px;
-    margin-right: -30px;
+    margin-top: 19px;
+    margin-right: -27px;
     z-index: 101;
     transform-origin: center;
   }
@@ -166,7 +182,7 @@
   &.open {
     span {
       &.line1 {
-        top: 12px;
+        top: 10px;
         transform: rotate(-45deg) translateX(-50%);
       }
 
@@ -177,7 +193,7 @@
       }
 
       &.line3 {
-        bottom: 12px;
+        bottom: 9px;
         transform: rotate(45deg) translateX(-50%);
       }
     }
@@ -185,7 +201,7 @@
 
   span {
     display: block;
-    width: 23px;
+    width: 30px;
     height: 4px;
     background-color: #b40505;
     @include transition(.3s);

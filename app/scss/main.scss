@@ -19,7 +19,7 @@ main {
   margin-top: 200px;
 
   @include media-breakpoint-down(sm) {
-    margin-top: 65px;
+    margin-top: 96px;
   }
 }
 
@@ -44,7 +44,7 @@ main {
   color: $c-main;
   font-size: 73px;
   line-height: 75px;
-  margin-bottom: 40px;
+  margin-bottom: 34px;
   font-family: $f-light;
   font-weight: normal;
 
@@ -55,6 +55,10 @@ main {
   }
 
   &.repeat-heading-partnership {
-    margin-bottom: 5px;
+    margin-bottom: 18px;
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: 6px;
+    }
   }
 }

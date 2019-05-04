@@ -1,7 +1,12 @@
-.main-footer {
+footer.main-footer {
   background: url("../img/footer-bg.png") no-repeat 50% 50%;
   -webkit-background-size: cover;
   background-size: cover;
+  padding: 58px 0 49px 0;
+
+  @include media-breakpoint-down(sm) {
+    padding: 25px 0 16px 0;
+  }
 }
 
 
@@ -19,6 +24,11 @@
 
 .social-wrapper {
   white-space: nowrap;
+  margin: 14px 23px 0 0;
+
+  @include media-breakpoint-down(sm) {
+    margin: 7px 0 0 0;
+  }
 
   a {
     display: inline-block;
@@ -41,7 +51,11 @@
 }
 
 .footer-txt {
-  margin-top: 45px;
+  margin-top: 37px;
+
+  @include media-breakpoint-down(sm) {
+    margin-top: 26px;
+  }
 
   span {
     font-size: 18px;
