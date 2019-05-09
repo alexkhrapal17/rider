@@ -12,6 +12,10 @@
     background-color: #fff;
   }
 
+  &.header2 {
+    padding-bottom: 0;
+  }
+
   &.header3 {
     @include reset-position;
     background: url("../img/top-bg.png") no-repeat 0 0;
